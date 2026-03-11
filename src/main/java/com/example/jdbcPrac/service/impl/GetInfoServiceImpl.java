@@ -21,4 +21,11 @@ public class GetInfoServiceImpl implements GetInfoService {
     public List<District> getAllInfo() {
         return  districtRepo.getDemo();
     }
+
+    @Override
+    public void setDistrictInfo() {
+        districtRepo.setInfo();
+    }
+
+
 }

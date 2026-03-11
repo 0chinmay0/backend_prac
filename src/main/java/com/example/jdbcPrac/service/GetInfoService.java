@@ -7,4 +7,5 @@ import java.util.List;
 public interface GetInfoService {
 
     public List<District> getAllInfo();
+    public void setDistrictInfo();
 }
