@@ -9,4 +9,5 @@ public class District {
     int district_code;
     String district_name;
     int state_code;
+    int district_id;
 }
