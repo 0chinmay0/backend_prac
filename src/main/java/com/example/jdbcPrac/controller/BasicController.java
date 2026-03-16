@@ -22,9 +22,7 @@ public class BasicController {
 
     @PostMapping("/setDistrict")
     public ResponseEntity<Void> setDitrictInfo(){
-
-
-        return  new ResponseEntity<>(HttpStatus.OK);
+         return  new ResponseEntity<>(HttpStatus.OK);
     }
 
     @GetMapping("/get")

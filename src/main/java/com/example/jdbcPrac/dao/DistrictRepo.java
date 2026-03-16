@@ -59,4 +59,15 @@ public class DistrictRepo {
         }
     }
 
+    public void  getInfo(){
+        String qs = "INSERT INTO district_master  VALUES (?, ?,?) ";
+        try{
+            Connection con = dataSource.getConnection();
+            //PreparedStatement ps=con.prepareStatement();
+            System.out.print("gtg");
+        }catch(Exception e){
+
+        }
+    }
+
 }
